@@ -1,4 +1,2 @@
-# AndroidServiceThreadExample
-Android service component with task in extra(not main) thread      
-
+# AndroidServiceThreadExample    
 Simple android service component example with separate thread
