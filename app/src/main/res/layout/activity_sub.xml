@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:elevation="4dp"/>
+
+    <TextView
+        android:id="@+id/textViewName"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Name"
+        android:textSize="@dimen/textSize" />
+
+    <TextView
+        android:id="@+id/textViewDigit"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Digit"
+        android:textSize="@dimen/textSize" />
+    <TextView
+        android:id="@+id/textViewStringParcelable"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="String parcelable"
+        android:textSize="@dimen/textSize" />
+    <TextView
+        android:id="@+id/textViewIntegerParcelable"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="Integer parcelable"
+        android:textSize="@dimen/textSize" />
+    <TextView
+        android:id="@+id/textViewStringSerializable"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="String serializable"
+        android:textSize="@dimen/textSize" />
+    <TextView
+    android:id="@+id/textViewIntegerSerializable"
+    android:layout_width="wrap_content"
+    android:layout_height="50dp"
+    android:text="Integer serializable"
+    android:textSize="@dimen/textSize" />
+    <TextView
+        android:id="@+id/textViewGSON"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:text="String GSON"
+        android:textSize="@dimen/textSize" />
+</LinearLayout>

@@ -1,9 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="fill_parent"
-    android:layout_height="fill_parent"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
     android:orientation="vertical">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/my_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/colorAccent"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        android:elevation="4dp"/>
     <Button
         android:id="@+id/btnStart"
         android:layout_width="wrap_content"
@@ -11,16 +18,39 @@
         android:onClick="onClickStart"
         android:text="@string/start">
     </Button>
-    <Button
-        android:id="@+id/btnStop"
+    <EditText
+        android:id="@+id/dataName"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:onClick="onClickStop"
-        android:text="@string/stop">
-    </Button>
-    <ProgressBar
+        android:hint="@string/hintName" />
+    <EditText
+        android:id="@+id/dataDigit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:indeterminate="true">
-    </ProgressBar>
+        android:hint="@string/hint"/>
+    <EditText
+    android:id="@+id/dataStringParcelable"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:hint="@string/hintStringParcelable"/>
+    <EditText
+        android:id="@+id/dataIntegerParcelable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintIntegerParcelable"/>
+    <EditText
+        android:id="@+id/dataStringSerializable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintStringSerializable"/>
+    <EditText
+        android:id="@+id/dataIntegerSerializable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintIntegerSerializable"/>
+    <EditText
+        android:id="@+id/dataStringGSON"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/hintStringGSON"/>
 </LinearLayout>

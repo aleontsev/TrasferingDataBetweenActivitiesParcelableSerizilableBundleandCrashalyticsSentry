@@ -1,5 +1,12 @@
 <resources>
-    <string name="app_name">Service_test</string>
-    <string name="start">Start service</string>
+    <string name="app_name">TrasferingDataBetweenActivitiesTest</string>
+    <string name="start">Start trasfering data</string>
     <string name="stop">Stop service</string>
+    <string name="hint">Enter digit</string>
+    <string name="hintName">Enter name</string>
+    <string name="hintStringParcelable">Enter string parcelable</string>
+    <string name="hintIntegerParcelable">Enter integer parcelable</string>
+    <string name="hintStringSerializable">Enter string serializable</string>
+    <string name="hintIntegerSerializable">Enter integer serializable</string>
+    <string name="hintStringGSON">Enter string used in object for GSON trnsfer</string>
 </resources>
